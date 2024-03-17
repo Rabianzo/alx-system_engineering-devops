@@ -1,0 +1,22 @@
+I can bet a million bucks that at some point in time you have typed in "google.com" into your browser's address bar and explored this web page. But my question is; what really happens behind the scenes in order for this web page to be displayed? Well, let’s go on a little adventure and find out.
+Starting the Journey: DNS Resolution
+Imagine your browser as a highly-trained investigator. When you type in "google.com" it doesn't really understand your request. Instead, it sends a request to a Domain Name System (DNS) server, which acts like a massive internet directory, translating the website name into a numerical address (IP address) that only computers can understand.
+TCP/IP: The Language of the Web
+Equipped with the IP address (Computer language), your browser initiates a conversation with the Google server. They communicate using a specialised language called TCP/IP (Transmission Control Protocol/Internet Protocol), which ensures precise and efficient data exchange. TCP/IP serves as the constitution governing how data travels across the streets of the internet.
+Firewall: The Protector
+Before reaching Google's servers, your request will encounter a firewall, a.k.a the gatekeeper (nobody likes those right?). This digital guardian acts as a filter, analysing incoming and outgoing traffic to protect your device and the network from potential threats.
+Securing the Connection: HTTPS and SSL
+Now, security measures come into play. Most websites, including Google, rely on HTTPS (Hypertext Transfer Protocol Secure) to encrypt communication between your browser and the server using SSL (Secure Sockets Layer) technology. Think of HTTPS as a secret handshake that scrambles information, making it unreadable to unauthorised parties.
+Load Balancing: Distributing the Load
+Major websites like Google often employ load balancers. These act as traffic managers, distributing incoming requests among multiple web servers to ensure smooth operation and prevent any single server from becoming overwhelmed.
+Web Server: Serving the Content
+Once your request reaches the web server, it retrieves the necessary files to display the Google homepage. These files include HTML code (which defines the web page structure), CSS (for styling), JavaScript (for interactivity), and images. The web server then sends this data back to your browser.
+Application Server (Optional):
+While not always present, some websites use an application server. This intermediary between the web server and a database manages complex functions and logic behind the scenes.
+Database (Optional):
+For websites requiring dynamic content, such as personalised search results, a database may be utilised. This extensive electronic storage holds organised information accessed by the application server to populate the webpage.
+Rendering the Page: Bringing it to Life
+Finally, the information reaches your browser, which interprets the HTML code, applies CSS for styling, possibly utilises JavaScript for dynamic elements, and fetches and displays images and media accordingly. Voila! The familiar Google homepage appears on your screen.
+Despite its complexity, this entire process occurs in milliseconds. It's a fascinating demonstration of how different technologies collaborate seamlessly to deliver the information you need quickly. So, the next time you enter "google.com" and hit Enter, take a moment to acknowledge the intricate teamwork happening behind the scenes to provide the desired results.
+
+
